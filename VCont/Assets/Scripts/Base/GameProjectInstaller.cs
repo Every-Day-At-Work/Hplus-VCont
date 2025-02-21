@@ -1,8 +1,6 @@
 ﻿namespace Base
 {
-    using BlueprintFlow.BlueprintControlFlow;
     using GameFoundation;
-    using UnityEngine;
     using VContainer;
     using VContainer.Unity;
 
@@ -10,7 +8,8 @@
     {
         protected override void Configure(IContainerBuilder builder)
         {
-            GameFoundationInstaller.Install(builder, this.Container);
+            // GameFoundationInstaller.Install(builder, this.Container);
+            builder.Register<DummyService>(Lifetime.Singleton).AsImplementedInterfaces();
         }
     }
 }

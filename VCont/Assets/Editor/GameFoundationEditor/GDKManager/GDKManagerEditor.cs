@@ -9,7 +9,7 @@ using UnityEngine.UIElements;
 
 public class GDKManagerEditor : EditorWindow
 {
-    private const string SDKToolsFolderPath = "Packages/com.gdk.core/Editor/GDKManager/";
+    private const string SDKToolsFolderPath = "Assets/Editor/GameFoundationEditor/GDKManager/";
 
     private VisualElement initPanel;
     private VisualElement configPanel;

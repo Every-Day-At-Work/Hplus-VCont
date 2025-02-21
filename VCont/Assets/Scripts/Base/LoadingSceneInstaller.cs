@@ -1,6 +1,8 @@
 ﻿namespace Base
 {
-    public class LoadingSceneInstaller
+    using ScreenFlow.Managers;
+
+    public class LoadingSceneInstaller : BaseSceneInstaller
     {
         
     }
